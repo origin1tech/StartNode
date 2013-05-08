@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<config>
+  <!-- 
+    DOCUMENTATION:     
+    mode: The NODE_ENV to run under.
+    nodepath: Your path where Node.exe is installed.
+    appdir: The directory of the application. SEE allowoverrides.
+    appstart: The application to start. SEE allowoverrides.
+    minimize: Where or not the window starts minimized.
+    allowoverrides: When true StartNode will check the current directory and any specified overrideapps to see if it can start successfully.
+    defaultapps: When overrides enabled checks if exists when specified "appstart" cannot be found.     
+  -->
+  <mode>development</mode>
+  <nodepath>C:\Program Files (x86)\nodejs\node.exe</nodepath>
+  <appdir>D:\websites\nodedemo</appdir>
+  <appstart>node.js</appstart>
+  <minimize>false</minimize>
+  <allowoverrides>true</allowoverrides>
+  <defaultapps>app.js,server.js,node.js</defaultapps> 
+</config>
